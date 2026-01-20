@@ -1,4 +1,6 @@
-﻿fastapi==0.115.12
-uvicorn[standard]==0.34.2
+fastapi==0.115.12
+uvicorn==0.34.2
 yfinance==0.2.40
 python-multipart==0.0.9
+flask==2.3.3
+python-multipart==0.0.6
