@@ -363,6 +363,16 @@ def dashboard():
 </html>
 """
 
+@app.get("/", tags=["Home"])
+def root():
+    return {
+        "message": "🚀 Finanças Enterprise API PRO",
+        "status": "ativo", 
+        "dashboard": "/dashboard",
+        "docs": "/docs",
+        "predict": "/predict/PETR4.SA",
+        "version": "1.0"
+    }
 
 
 if __name__ == "__main__":
